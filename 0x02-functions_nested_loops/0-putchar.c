@@ -1,8 +1,7 @@
 #include "main.h"
 
-
 /**
- * main - check the code for ALX School students.
+ * main - check the code for ALX.
  *
  * Program that prints _putchar, followed by a new line
  *
@@ -23,4 +22,3 @@ int main(void)
 
 	return (0);
 }
-
