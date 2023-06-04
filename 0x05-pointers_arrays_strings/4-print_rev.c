@@ -13,5 +13,5 @@ while (s[start])
 start++;
 while (start--)
 putchar(s[start]);
-_putchar('\n');
+putchar('\n');
 }
