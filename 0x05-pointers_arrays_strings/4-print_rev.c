@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print rev - function that prints a string in reverse
- * @s: the used string reference pointer 
+ * print_rev - function that prints a string in reverse
+ * @s: the used string reference pointer
  * Return 0
  */
 
