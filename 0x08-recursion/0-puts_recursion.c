@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * _puts_recursion - Prints a string using recursion, followed by a new line.
- * @s: The input string to be printed.
+ * _puts_recursion - Prints a string followed by a new line using recursion.
+ * @s: The string to be printed.
  */
 void _puts_recursion(char *s)
 {
@@ -16,7 +16,7 @@ void _puts_recursion(char *s)
     _puts_recursion(s + 1);  /* Recursively call the function with the next character */
 }
 
-int main()
+int main(void)
 {
     char str[] = "Hello, World!";
     _puts_recursion(str);
