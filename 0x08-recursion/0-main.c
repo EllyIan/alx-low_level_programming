@@ -1,5 +1,4 @@
 #ifndef MAIN_H
-
 #define MAIN_H
 
 
@@ -14,4 +13,4 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 
 
-#endif /* MAIN_H */
+#endif
